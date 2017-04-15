@@ -25,7 +25,7 @@ def on_message(client, userdata, msg):
 
 
 # Subscribe to a topic, if it anyone aka the client publishes on the topic, we will recieve that
-client.subscribe(“hello/world”)
+client.subscribe(“hello/codespace”)
 
 
 #Connect to server and set up callback function for on_connect and on_message
